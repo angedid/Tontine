@@ -1,0 +1,16 @@
+Application
+
+La tontine
+
+Au Cameroun, des personnes se mettent ensemble pour effectuer l'activité de tontine. La tontine est une activité qui consiste à collecter des fonds (aux membres) et à remettre à un membre de la tontine. Chaque membre a son tour pour bénéficier des fonds cotisés. Un montant fixe de cotisation est fixé par les membres de la tontine, montant minimal que chaque membre doit verser pour sa cotisation. Les fonds sont cotisés a des périodes régulières  (hebdomadaire, mensuelle, trimestriel, etc). Avant le lancement de la tontine, les membres fixent un classement définissant l'ordre à laquel les membres bénéficieront des cotisations. Un bureau est également mis en place afin de permettre de régulariser le fonctionnement de la réunion. C’est  le trésorier qui encaisse les fonds de cotisation de chaque membre. Il remet les fonds collectés au président qui le remet solennellement au membre bénéficiaire. 
+
+Réaliser une application qui permettra aux membres d’une tontine de réaliser cette activité sur la blockchain de Cardano. Un accent doit être mis sur le contrat intelligent. En particulier, la solution doit permettre au secrétaire d’ouvrir la tontine au début d’une période et de la fermer à la fin de la période. Un membre ne doit pouvoir cotiser pour une période que si la tontine est ouverte.  Après fermeture de la tontine, le trésorier doit payer le bénéficiaire en opérant une opération consistant à transférer les fonds de la collecte de la période au bénéficiaire défini dans le classement. Lorsque tous les membres ont bénéficié de la tontine, la tontine est définitivement close et l’ensemble des informations enregistrées dans le contrat intelligent.   
+
+De cette description, il ressort que, étant donné une tontine, il doit être défini les information suivantes:
+    Le montant fixe de cotisation de chaque membre
+    Le classement définissant l’ordre pour bénéficier des cotisations
+    La périodicité de cotisation
+    Les responsables de la tontine (Président, Secrétaire, trésorier, etc).
+ 
+
+
